@@ -542,6 +542,12 @@ background-image: url("img/Grey Photographic Spot Light Backdrop White Backgroun
 background-size: cover;
 }
 
+.carousel-inner {
+max-width: 100%;
+width: 100%;
+margin: 0 auto;
+}
+
 .carousel-container {
 position: absolute;
 height: 300px;
@@ -567,7 +573,7 @@ left: 0px;
 }
 
 .carousel-card:not(:first-child) {
-  margin-left: -30px;
+  margin-left: -50px;
 }
 
 .carousel-card:hover {
@@ -665,7 +671,7 @@ color: #fff;
 font-family: 'Roboto Flex', sans-serif;
 }
 
-.report-card-container {
+.card-container {
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
